@@ -43,6 +43,10 @@
   gap: 57px;
 }
 
+.togle{
+  display: none;
+}
+
 ul li a:hover{
   color:  #728bad ;
   transition: 0.3s all;
