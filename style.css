@@ -8,10 +8,9 @@
 }
 .main {
   width: 100%;
-
   background-color: #222021;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
 }
 .container {
   height: 700px;
@@ -42,6 +41,16 @@
   height: 24px;
   display: flex;
   gap: 57px;
+}
+
+ul li a:hover{
+  color:  #728bad ;
+  transition: 0.3s all;
+  transform: scale(2.5);
+}
+
+button:hover{
+  background-color:#466ba0 ;
 }
 
 .hero {
