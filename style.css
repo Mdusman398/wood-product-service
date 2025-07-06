@@ -13,10 +13,8 @@
   background-size: cover; */
 }
 .container {
-  height: 700px;
   background-image: url(./Assets/heroimg.png);
-  position: relative;
-  background-position: top left;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -252,6 +250,9 @@ button:hover{
   font-weight: 500;
   font-size: 60px;
   line-height: 133%;
+}
+.ourWork-image-container i{
+  font-size: 35px;
 }
 .ourWork-image-container {
   margin-top: 80px;
