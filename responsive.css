@@ -1,14 +1,45 @@
 @media screen and (min-width: 280px) and (max-width: 720px) {
+  .main{
+    width: 100%;
+  }
   .navbar .logo img {
     width: 150px;
     height: 68px;
   }
-  .navbar ul {
+
+  
+
+  .navbar{
+    height: fit-content;
+    width: 90%;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .navbar .logo{
+    /* padding: 0%; */
+    margin: 0%;
+  }
+  .navbar .logo img{
+    height: 50px;
+    width: 70px;
+  }
+  .togle{
+    display: flex;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .nav-links{
+    width: fit-content;
+    margin-top: 30px;
     display: none;
   }
-
-  .togle {
-    display: inline;
+  .nav-links ul {
+    display: block;
+    width: fit-content;
+    line-height: 30px;
+    height: fit-content;
+    text-align: center;
   }
 
   /* hero  */
@@ -182,7 +213,7 @@
   }
   .ourWork {
     width: 100%;
-    margin-top: 130px;
+    margin-top: 50px;
   }
 
   .ourWork h1 {
@@ -192,6 +223,7 @@
   }
   .ourWork-image-container img {
     width: 85%;
+    height: 80%;
   }
 
   /* advantages */
@@ -323,7 +355,7 @@
     /* margin-top: 200px; */
     width: 90%;
     position: relative;
-    top: 300px;
+    top: 100px;
 
     display: flex;
     flex-direction: column;
@@ -399,7 +431,7 @@
 
   /* footer */
   .footerSection {
-    margin-top: 300px;
+    margin-top: 150px;
     height: auto;
     padding: 50px 100px;
     box-shadow: 5px 0px 10px 10px #79797952;
